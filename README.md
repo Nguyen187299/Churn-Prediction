@@ -1,4 +1,3 @@
-Duy Derrick Nguyen
 
 # Bank Churn Classifier
 
