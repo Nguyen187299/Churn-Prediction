@@ -31,7 +31,7 @@ This repository holds an attempt to predict whether a person's bank account will
 * Scaling
    * MinMaxScaler
 * One-Hot Encoding
-   * Geography and Gender columns
+   * Categorical columns (ex: Geography, Gender)
 
 
 
