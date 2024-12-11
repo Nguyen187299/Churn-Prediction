@@ -36,6 +36,7 @@ This repository holds an attempt to predict whether a person's bank account will
 * One-Hot Encoding
    * Categorical columns (ex: Geography, Gender)
 
+#### Data Visualization
 
 <img width="757" alt="Screenshot 2024-12-11 at 11 37 35 AM" src="https://github.com/user-attachments/assets/07cda7ee-dcd9-4da2-b182-3c3f5e5199cf" />
 
