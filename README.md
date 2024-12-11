@@ -41,6 +41,7 @@ This repository holds an attempt to predict whether a person's bank account will
 
 <img width="757" alt="Screenshot 2024-12-11 at 11 37 35 AM" src="https://github.com/user-attachments/assets/07cda7ee-dcd9-4da2-b182-3c3f5e5199cf" />
 
+<img width="665" alt="Screenshot 2024-12-11 at 12 01 42 PM" src="https://github.com/user-attachments/assets/119afac8-e396-424d-8950-63ba8ce1d80d" />
 
 
 
