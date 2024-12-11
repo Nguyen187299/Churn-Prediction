@@ -12,7 +12,7 @@ This repository holds an attempt to predict whether a person's bank account will
 
   * **Definition of the tasks / challenge**  The task, as defined by the Kaggle challenge is to predict whether a customer continues with their account or closes it (churn)
   * **Your approach** Ex: The approach in this repository formulates the problem as classification task, using random forest, SVC, and logistic regression as the models with the bank account features as input. We compared the performance of 3 different algorithms.
-  * **Summary of the performance achieved**  Our best model was able to predict the correct churn outcome 85% of the time
+  * **Summary of the performance achieved**  Our best model was the Random Forest which was able to predict the correct churn outcome 85% of the time
 
 ## Summary of Workdone
 
