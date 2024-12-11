@@ -20,16 +20,22 @@ This repository holds an attempt to predict whether a person's bank account will
     * Input: CSV file containing customer information (features like CreditScore, Age, Tenure, Balance, etc.).
     * Output: "Exited" column indicating whether the customer has churned (1) or not (0).
   * Size: Number of rows: 165034 <br>
-Number of features: 11
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+          Number of features: 11
+  * Instances (Train, Test, Validation Split): 70% for training
+                                               15% for testing
+                                               15% for validation
 
 #### Preprocessing / Clean up
-
-* Describe any manipulations you performed to the data.
+* Remove duplicates
+* Removing unnecessary columns (ex: id, Customerid)
+* Scaling
+   * MinMaxScaler
+* One-Hot Encoding
+   * Geography and Gender columns
 
 #### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
+
 
 ### Problem Formulation
 
