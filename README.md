@@ -1,6 +1,6 @@
-![](UTA-DataScience-Logo.png)
+Duy Derrick Nguyen
 
-# Project Title
+# Bank Churn Classifyer
 
 * **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
 "Get Rich" Kaggle challenge (provide link). 
