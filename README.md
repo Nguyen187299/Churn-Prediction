@@ -40,10 +40,27 @@ This repository holds an attempt to predict whether a person's bank account will
 ### Problem Formulation
 
 * Define:
-  * Input / Output
+  * Input: CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary.
+  * Output: Exited Binary Classification
   * Models
-    * Describe the different models you tried and why.
-  * Loss, Optimizer, other Hyperparameters.
+
+    Random Forest Classifier:
+
+Reason: Random Forest was chosen because it's a robust, ensemble learning method that tends to work well for classification tasks with a large number of features. It's particularly good at handling nonlinear relationships between features and their interactions.
+Hyperparameters:
+n_estimators: 100 (number of trees in the forest).
+random_state: 42 (to ensure reproducibility).
+Logistic Regression:
+
+Reason: Logistic Regression was chosen as a baseline model because it's simple, interpretable, and often performs well on binary classification tasks with well-behaved data.
+Hyperparameters:
+max_iter: 1000 (to ensure convergence).
+Support Vector Machine (SVM):
+
+Reason: SVM was chosen for its ability to perform well in high-dimensional spaces and when the decision boundary between classes is not linear.
+Hyperparameters:
+kernel: 'rbf' (Radial basis function kernel).
+random_state: 42 (to ensure reproducibility).
 
 ### Training
 
