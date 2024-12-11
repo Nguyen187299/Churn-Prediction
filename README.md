@@ -42,7 +42,7 @@ This repository holds an attempt to predict whether a person's bank account will
 * Define:
   * Input: CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary.
   * Output: Exited Binary Classification
-  * Models
+  * Models <br>
 Random Forest:
 
 Reason: Random Forest was chosen because it works well with multiple features and can prevent overfitting
