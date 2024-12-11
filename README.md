@@ -2,8 +2,7 @@ Duy Derrick Nguyen
 
 # Bank Churn Classifyer
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+This repository holds an attempt to predict whether a person's bank account will churn or not using machine learning algorithms with data from the Binary Classification with a Bank Churn Dataset <br> https://www.kaggle.com/competitions/playground-series-s4e1/data?select=test.csv
 
 ## Overview
 
