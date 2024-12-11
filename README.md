@@ -1,5 +1,6 @@
-![](UTA-DataScience-Logo.png)
 
+
+<img width="252" alt="Screenshot 2024-12-11 at 11 42 28 AM" src="https://github.com/user-attachments/assets/192985a6-eac2-4217-aac4-52d2ebccf65e" />
 
 
 
@@ -40,6 +41,7 @@ This repository holds an attempt to predict whether a person's bank account will
 
 <img width="757" alt="Screenshot 2024-12-11 at 11 37 35 AM" src="https://github.com/user-attachments/assets/07cda7ee-dcd9-4da2-b182-3c3f5e5199cf" />
 
+<img width="161" alt="Screenshot 2024-12-11 at 11 42 00 AM" src="https://github.com/user-attachments/assets/de31d896-efbc-4137-8df2-92336e8de50b" />
 
 
 ### Problem Formulation
