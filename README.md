@@ -33,8 +33,6 @@ This repository holds an attempt to predict whether a person's bank account will
 * One-Hot Encoding
    * Geography and Gender columns
 
-#### Data Visualization
-
 
 
 ### Problem Formulation
@@ -43,6 +41,7 @@ This repository holds an attempt to predict whether a person's bank account will
   * Input: CreditScore, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary.
   * Output: Exited Binary Classification
   * Models <br>
+
 Random Forest:
 
 Reason: Random Forest was chosen because it works well with multiple features and can prevent overfitting
@@ -65,75 +64,79 @@ random_state: 42
 
 ### Training
 
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
+  * Software: Python
+    * Libraries: pandas, scikit-learn, matplotlib
+  * Hardware: Standard CPU
+  * How long did training take
+    * Few minutes due to the size of the dataset
   * Training curves (loss vs epoch for test/train).
+    * Check metrics such as accuracy, ROC, and AUC
   * How did you decide to stop training.
+    * Training was stopped when satisfactory accuracies were achieved relative to the domain
   * Any difficulties? How did you resolve them?
+    * Initially had a training accuracy of 100% but it was resolved after some data preprocessing and tuning
 
 ### Performance Comparison
 
-* Clearly define the key performance metric(s).
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
+* Key Performance Metrics
+  * Accuracy: How often the model makes the correct prediction
+  * Precision: How many customers predicted to churn actually churned
+  * Recall: How many actual churned customers were correctly identified
+  * ROC/AUC: Shows how well the model distinguishes the churned and not churned custoemrs
 
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+* All the models had satisfactory performances with the Random Forest performing the best overall
 
 ### Future Work
 
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
+* Future Improvements:
+  * Further model tuning
+  * Use ensemble methods
+  * Cross-Validation
+* Further Studies:
+  * Comparison with other companies
+  * Behavioral Data
 
 ## How to reproduce results
 
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+* Data Loading
+  * Load the data and look at each of the features such as statistical summaries and visualizations
+* Data Cleaning and Preprocessing
+  * Remove any missing or invalid data
+  * Scale numerical data if needed
+  * Encode categorical features
+  * Remove duplicate rows
+* Model Training
+  * Split the data in test, train, and validation
+  * Apply the algorithms
+  * Tune the model to improve performance
 
 ### Overview of files in repository
 
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
-
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
 ### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
+* Packages:
+  * pandas, scikit-learn, matplotlib, seaborn
+* You can install packages using !pip install command
 
 ### Data
 
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
+* The data can be found at https://www.kaggle.com/competitions/playground-series-s4e1/overview
 
 ### Training
 
-* Describe how to train the model
+* Prepare your data by cleaning it, getting rid of any missing values or outliers. Use feature engineering if necessary. Split your dataset into train, test, and validation splits. Initialize and train the model. Evaluate the model and hypertune if necessary.
 
 #### Performance Evaluation
 
-* Describe how to run the performance evaluation.
+* You can present the performance using a classification report, ROC/AUC curve, or cross-validation
 
 
 ## Citations
 
-* Provide any references.
+https://www.kaggle.com/competitions/playground-series-s4e1/overview
+
 
 
 
