@@ -92,7 +92,10 @@ random_state: 42
   * Accuracy: How often the model makes the correct prediction
   * Precision: How many customers predicted to churn actually churned
   * Recall: How many actual churned customers were correctly identified
-  * ROC/AUC: Shows how well the model distinguishes the churned and not churned custoemrs
+  * ROC/AUC: Shows how well the model distinguishes the churned and not churned customers
+  * Random Forest Score: 85%
+  * Logistic Regression Score: 82%
+  * SVM Score: 85%
 
 ### Conclusions
 
