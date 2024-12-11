@@ -21,9 +21,9 @@ This repository holds an attempt to predict whether a person's bank account will
     * Output: "Exited" column indicating whether the customer has churned (1) or not (0).
   * Size: Number of rows: 165034 <br>
           Number of features: 11
-  * Instances (Train, Test, Validation Split): 70% for training
-                                               15% for testing
-                                               15% for validation
+  * Instances (Train, Test, Validation Split): 70% for training,
+                                               15% for testing,
+                                               15% for validation,
 
 #### Preprocessing / Clean up
 * Remove duplicates
