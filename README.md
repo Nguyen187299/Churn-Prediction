@@ -1,5 +1,8 @@
 ![](UTA-DataScience-Logo.png)
 
+
+
+
 # Bank Churn Classifier
 
 This repository holds an attempt to predict whether a person's bank account will churn or not using machine learning algorithms with data from the Binary Classification with a Bank Churn Dataset <br> https://www.kaggle.com/competitions/playground-series-s4e1/data?select=test.csv
