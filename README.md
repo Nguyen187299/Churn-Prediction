@@ -80,7 +80,7 @@ This repository holds an attempt to predict whether a person's bank account will
   * How long did training take
     * Few minutes due to the size of the dataset
   * Training curves (loss vs epoch for test/train).
-    * Check metrics such as accuracy, ROC, and AUC
+    * Checked metrics such as accuracy, ROC, and AUC
   * How did you decide to stop training.
     * Training was stopped when satisfactory accuracies were achieved relative to the domain
   * Any difficulties? How did you resolve them?
