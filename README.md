@@ -140,7 +140,7 @@ This repository holds an attempt to predict whether a person's bank account will
 
 ### Training
 
-* Prepare your data by cleaning it, getting rid of any missing values or outliers. Use feature engineering if necessary. Split your dataset into train, test, and validation splits. Initialize and train the model. Evaluate the model and hypertune if necessary.
+* Prepare your data by cleaning it, removing any missing values or outliers. Use feature engineering if necessary. Split your dataset into train, test, and validation splits. Initialize and train the model. Evaluate the model and hypertune if necessary.
 
 #### Performance Evaluation
 
