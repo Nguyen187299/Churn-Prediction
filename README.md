@@ -93,6 +93,7 @@ This repository holds an attempt to predict whether a person's bank account will
   * Precision: How many customers predicted to churn actually churned
   * Recall: How many actual churned customers were correctly identified
   * ROC/AUC: Shows how well the model distinguishes the churned and not churned customers
+* Model Performance
   * Random Forest Score: 85%
   * Logistic Regression Score: 82%
   * SVM Score: 85%
