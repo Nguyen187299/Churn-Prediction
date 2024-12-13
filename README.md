@@ -52,25 +52,25 @@ This repository holds an attempt to predict whether a person's bank account will
   * Output: Exited Binary Classification
   * Models: <br>
 
-* Random Forest:
-
-   Reason: Random Forest was chosen because it works well with multiple features and can prevent overfitting
-   Hyperparameters:
-   n_estimators: 100 
-   random_state: 42 
-
-* Logistic Regression:
-
-   Reason: Logistic Regression was chosen as a baseline model because it's easy to understand and works well with binary classification
-   Hyperparameters:
-   max_iter: 1000 
-
-* Support Vector Machine (SVM):
-
-   Reason: SVM was chosen because it works well with high dimensional data
-   Hyperparameters:
-   kernel: 'rbf' 
-   random_state: 42 
+     * Random Forest:
+     
+        Reason: Random Forest was chosen because it works well with multiple features and can prevent overfitting
+        Hyperparameters:
+        n_estimators: 100 
+        random_state: 42 
+     
+     * Logistic Regression:
+     
+        Reason: Logistic Regression was chosen as a baseline model because it's easy to understand and works well with binary classification
+        Hyperparameters:
+        max_iter: 1000 
+     
+     * Support Vector Machine (SVM):
+     
+        Reason: SVM was chosen because it works well with high dimensional data
+        Hyperparameters:
+        kernel: 'rbf' 
+        random_state: 42 
 
 ### Training
 
