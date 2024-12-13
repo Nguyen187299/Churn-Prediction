@@ -1,7 +1,6 @@
 
 
-<img width="252" alt="Screenshot 2024-12-11 at 11 42 28 AM" src="https://github.com/user-attachments/assets/192985a6-eac2-4217-aac4-52d2ebccf65e" />
-
+<img width="256" alt="Screenshot 2024-12-13 at 11 31 08 AM" src="https://github.com/user-attachments/assets/816be204-bd51-4ba7-9ea6-c3d4e35b5813" />
 
 
 # Bank Churn Classifier
